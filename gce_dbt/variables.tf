@@ -1,6 +1,6 @@
-variable "project" { 
-    default = "terraform-tutorial-413506"
- }
+variable "project" { }
+
+variable "credentials_file" { }
 
 variable "region" {
   default = "asia-northeast1"
